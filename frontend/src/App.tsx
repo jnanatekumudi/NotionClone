@@ -17,10 +17,10 @@ function App() {
           rel="noopener noreferrer"
         >
           Visit Notion
-        </a>
+        </a
       </header>
     </div>
-  );
+  );c
 }
 
 export default App;
