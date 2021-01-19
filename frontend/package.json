@@ -25,8 +25,26 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
-    ]
+      "react-app/jest",
+      "airbnb",
+      "airbnb/hooks",
+      "plugin:prettier/recommended"
+    ],
+    "rules": {
+      "react/react-in-jsx-scope": 0,
+      "react/jsx-filename-extension": [
+        "error",
+        {
+          "extentions": [
+            ".ts",
+            ".tsx",
+            ".js",
+            ".jsx"
+          ]
+        }
+      ],
+      "react/jsx-one-expression-per-line": 0
+    }
   },
   "browserslist": {
     "production": [
